@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.yiddu.myfirstandroidproject.MainActivity">
+
+    <ImageView
+        android:src="@mipmap/loginhead"
+        android:layout_marginTop="96dp"
+        android:layout_width="231dp"
+        android:layout_height="53dp" />
+
+    <TextView
+        android:text="Cat On Cloud"
+        android:textSize="30sp"
+        android:textColor="#f18476"
+        android:fontFamily="casual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/text_username"
+        android:hint="User Name"
+        android:textSize="18sp"
+        android:textColor="#33cccc"
+        android:textColorHint="#5cd6c6"
+        android:layout_marginTop="87dp"
+        android:paddingLeft="10dp"
+        android:layout_width="246dp"
+        android:layout_height="50dp"
+        android:background="@drawable/login_input_bg"/>
+
+    <EditText
+        android:id="@+id/text_password"
+        android:hint="Paasword"
+        android:textSize="18sp"
+        android:textColor="#33cccc"
+        android:textColorHint="@color/colorBlueGreen"
+        android:layout_marginTop="53dp"
+        android:paddingLeft="10dp"
+        android:layout_width="246dp"
+        android:layout_height="50dp"
+        android:background="@drawable/login_input_bg"/>
+
+    <Button
+        android:id="@+id/buttob_login"
+        android:text="Login"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/login_btn_bg_selector"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/ui_size_25"
+        android:layout_width="246dp"
+        android:layout_height="40dp" />
+
+</LinearLayout>
