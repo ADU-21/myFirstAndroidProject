@@ -49,6 +49,7 @@
     <Button
         android:id="@+id/buttob_login"
         android:text="Login"
+        android:layout_alignParentBottom="true"
         android:textColor="@color/colorWhite"
         android:background="@drawable/login_btn_bg_selector"
         android:textSize="18sp"
