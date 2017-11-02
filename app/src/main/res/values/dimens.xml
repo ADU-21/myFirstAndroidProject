@@ -2,4 +2,5 @@
 <resources>
     <dimen name="ui_size_25">25dp</dimen>
     <dimen name="ui_size_4">4dp</dimen>
+    <dimen name="ui_size_200">200dp</dimen>
 </resources>
